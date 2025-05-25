@@ -63,8 +63,7 @@ with st.container():
         st.title("Hey, I'm Jane Doe 👋")
         st.subheader("Frontend Developer & UI/UX Enthusiast")
         st.write("I build modern, responsive websites with React, Streamlit, and a passion for user-friendly design.")
-        st.markdown("[📄 Resume](https://yourdomain.com/resume.pdf)  |  [GitHub](https://github.com/yourname)  |  [LinkedIn](https://linkedin.com/in/yourname)")
-
+       
 # ------------------------ ABOUT ME ------------------------
 with st.container():
     st.write("---")
@@ -96,12 +95,10 @@ with st.container():
     with project_cols[0]:
         st.subheader("🌤️ Weather App")
         st.write("A React app using OpenWeatherMap API to show real-time weather for cities around the world.")
-        st.markdown("[🔗 Live Demo](https://weather-demo.com) | [💻 Code](https://github.com/yourname/weather-app)")
 
     with project_cols[1]:
         st.subheader("📊 Portfolio Dashboard")
         st.write("A Streamlit-based dashboard to track project analytics and GitHub activity.")
-        st.markdown("[🔗 Live](https://streamlit-demo.com) | [💻 Code](https://github.com/yourname/dashboard)")
 
 # ------------------------ CONTACT ------------------------
 with st.container():
