@@ -6,7 +6,7 @@ st.set_page_config(page_title="My Portfolio", page_icon=":wave:", layout="wide")
 
 # --------- HEADER SECTION ---------
 with st.container():
-    st.subheader("Hi, I’m [Your Name] 👋")
+    st.subheader("Hi, I’m Thaheer 👋")
     st.title("A Frontend Developer with a Passion for UX & Web Design")
     st.write("I'm focused on building fast, accessible, and beautiful web apps.")
     st.write("[LinkedIn](https://linkedin.com/in/yourname) | [GitHub](https://github.com/yourusername)")
@@ -31,7 +31,7 @@ with st.container():
     with col1:
         st.subheader("Portfolio Website")
         st.write("React-based responsive portfolio site.")
-        st.write("[Source Code](https://github.com/yourusername/portfolio-react)")
+        st.write("https://github.com/thaheernitturi/Portfolio.git")
 
     with col2:
         st.subheader("Weather App")
