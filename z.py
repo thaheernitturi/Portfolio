@@ -57,8 +57,7 @@ with st.container():
     st.markdown("##")
     left_col, right_col = st.columns([1, 2])
     with left_col:
-        profile_pic = Image.open("assets/profile.jpg")  # update your path here
-        st.image(profile_pic, width=220)
+        
     with right_col:
         st.title("Hey, I'm Jane Doe 👋")
         st.subheader("Frontend Developer & UI/UX Enthusiast")
